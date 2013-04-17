@@ -1,0 +1,81 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Manager.master.cs" Inherits="ProjectManage.Manager.Manager" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+        <title>后台管理</title>
+        <link rel="icon" href="../images/favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon" />
+        <script type="text/javascript" src="../js/png.js"></script>
+        <script type="text/javascript" src="../js/jquery-1.7.1.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="../style/main.css"/>
+        <link rel="stylesheet" type="text/css" href="../style/form.css"/>
+<!--[if IE 6]> 
+<style type="text/css">
+#right{float:right;margin-left:0px; }
+</style>
+<![endif]-->
+</head>
+<body>
+        <form id="form1" runat="server">
+        <!-- wrap begin -->
+        <div id="wrap">
+                <!-- top begin -->
+                <div id="top">
+                        <div id="u_info"></div>                        
+                        <img id="logoimg" alt="项目管理系统" src="/images/1.png" />
+                </div>
+                <!-- top end -->
+                <!-- content begin-->
+                <div id="left">
+                        <div id="top_line">
+                        </div>
+                        <div id="user_info">
+                                <h2>用户信息</h2>
+                                <ul id="userdetail">
+                                        <li class="username">
+                                            <asp:Label ID="lbl_ManagerName" runat="server" Text="Label"></asp:Label></li>
+                                        <li class="department">角色：系统管理员</li>
+                                </ul>
+                        </div>
+                        <div id="l_m">
+                                <h2>操作菜单</h2>
+                                <ul id="l_ul">
+                                        <li class="l_menu" id="first"><a href="dafault.aspx">管理员信息</a></li>                                        
+                                        <li class="l_menu"><a href="PosiInfoManage.aspx">职位管理</a></li>                                        
+                                        <li class="l_menu"><a href="SysDepartmentManage.aspx">部门管理</a></li>
+                                        <li class="l_menu"><a href="UserManage.aspx">用户管理</a></li>
+                                        <li class="l_menu"><a href="SysProjectUpdate.aspx">项目信息</a></li>
+                                        <li class="l_menu"><a href="CustomerInfo.aspx">客户信息</a></li>
+                                        <li class="l_menu"><a href="SysModulesManage.aspx">模块管理</a></li>
+                                        <li class="l_menu"><a href="SysPermissionManage.aspx">权限管理</a></li>                                        
+                                        <li class="l_menu"><a href="SysConfigManage.aspx">系统设置</a></li>
+                                        <li class="l_menu"><a href="SysDictionaryManage.aspx">系统字典配置</a></li>
+                                        <li class="l_menu" id="last"><a onclick="return confirm(&quot;你确定要退出系统吗？&quot;);"  href="logout.aspx?logout=logout">退出系统</a></li>
+
+                                </ul>
+                        </div>
+                        <div id="d_menu">
+                        </div>
+                </div>
+                <div id="right">
+                        <div id="rtop_line">
+                        </div>
+                        <asp:ContentPlaceHolder ID="right_main" runat="server">
+                        </asp:ContentPlaceHolder>
+                </div>
+                <!-- content end -->
+                <div id="footer">
+                        <p>
+                                Powered by <a href="http://www.visione.com.cn/">Visione</a> | Designed by lxs
+                                <br/>
+                                Copyright© 2000-<span id="thisYear">2012</span> 中科卓视
+                        </p>
+                </div>
+        </div>
+        <!-- wrap end -->
+        </form>
+</body>
+</html>
+
