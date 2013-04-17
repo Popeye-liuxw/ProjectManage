@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Configuration>
+        <DataBaseList>
+                <DataBase connectionString="data source=192.168.0.137;Initial Catalog=ProjectTest;User ID=sa;Password=sa" dbName="ProjectMgr"/>
+		<!--<DataBase connectionString="data source=.;database=SSBSender;Trusted_Connection=True;Timeout=30;connection lifetime=30; min pool size=0; max pool size=50" dbName="SSBSender"/>-->
+        </DataBaseList>
+</Configuration>
