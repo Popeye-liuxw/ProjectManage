@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{61761465-1387-4AD8-9FD8-3D8B6709C4CA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ProjectManage.SqlPrivider</RootNamespace>
+    <AssemblyName>ProjectManage.SqlPrivider</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\doc\dll\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\doc\dll\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AutoGenCode\CustomerSqlPrivider.cs" />
+    <Compile Include="AutoGenCode\DepartmentSqlPrivider.cs" />
+    <Compile Include="AutoGenCode\PersonSqlPrivider.cs" />
+    <Compile Include="AutoGenCode\Vi_DeveloperRecSqlPrivider.cs" />
+    <Compile Include="AutoGenCode\Vi_ManagerRecSqlPrivider.cs" />
+    <Compile Include="AutoGenCode\Vi_MarketRecSqlPrivider.cs" />
+    <Compile Include="AutoGenCode\Vi_PrjChangePaperSqlPrivider.cs" />
+    <Compile Include="AutoGenCode\Vi_PrjDailyPaperSqlPrivider.cs" />
+    <Compile Include="AutoGenCode\Vi_PrjMonthPaperSqlPrivider.cs" />
+    <Compile Include="AutoGenCode\Vi_ProjectInfoSqlPrivider.cs" />
+    <Compile Include="AutoGenCode\Vi_ProjectNatureSqlPrivider.cs" />
+    <Compile Include="AutoGenCode\Vi_SysBackUserSqlPrivider.cs" />
+    <Compile Include="AutoGenCode\Vi_SysEmailServerSqlPrivider.cs" />
+    <Compile Include="AutoGenCode\Vi_SysLogSqlPrivider.cs" />
+    <Compile Include="AutoGenCode\Vi_SysModulesSqlPrivider.cs" />
+    <Compile Include="AutoGenCode\Vi_SysPosiInfoSqlPrivider.cs" />
+    <Compile Include="AutoGenCode\Vi_SysPosiPermSqlPrivider.cs" />
+    <Compile Include="AutoGenCode\Vi_SysSendEmailSqlPrivider.cs" />
+    <Compile Include="AutoGenCode\Vi_SysTypeSqlPrivider.cs" />
+    <Compile Include="AutoGenCode\Vi_SysUserRoleSqlPrivider.cs" />
+    <Compile Include="AutoGenCode\Vi_SysUserSqlPrivider.cs" />
+    <Compile Include="AutoGenCode\Vi_TesterRecSqlPrivider.cs" />
+    <Compile Include="CustomerSqlPrivider.cs" />
+    <Compile Include="DepartmentSqlPrivider.cs" />
+    <Compile Include="PersonSqlPrivider.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Vi_DeveloperRecSqlPrivider.cs" />
+    <Compile Include="Vi_ManagerRecSqlPrivider.cs" />
+    <Compile Include="Vi_MarketRecSqlPrivider.cs" />
+    <Compile Include="Vi_PrjChangePaperSqlPrivider.cs" />
+    <Compile Include="Vi_PrjDailyPaperSqlPrivider.cs" />
+    <Compile Include="Vi_PrjMonthPaperSqlPrivider.cs" />
+    <Compile Include="Vi_ProjectInfoSqlPrivider.cs" />
+    <Compile Include="Vi_ProjectNatureSqlPrivider.cs" />
+    <Compile Include="Vi_SysBackUserSqlPrivider.cs" />
+    <Compile Include="Vi_SysEmailServerSqlPrivider.cs" />
+    <Compile Include="Vi_SysLogSqlPrivider.cs" />
+    <Compile Include="Vi_SysModulesSqlPrivider.cs" />
+    <Compile Include="Vi_SysPosiInfoSqlPrivider.cs" />
+    <Compile Include="Vi_SysPosiPermSqlPrivider.cs" />
+    <Compile Include="Vi_SysSendEmailSqlPrivider.cs" />
+    <Compile Include="Vi_SysTypeSqlPrivider.cs" />
+    <Compile Include="Vi_SysUserRoleSqlPrivider.cs" />
+    <Compile Include="Vi_SysUserSqlPrivider.cs" />
+    <Compile Include="Vi_TesterRecSqlPrivider.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ProjectManage.Model\ProjectManage.Model.csproj">
+      <Project>{F91C51FB-94CE-41F1-813A-996D907E7506}</Project>
+      <Name>ProjectManage.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProjectManage.Provider\ProjectManage.Provider.csproj">
+      <Project>{F23AD5A7-9423-4141-AC77-9A5EC8FA4203}</Project>
+      <Name>ProjectManage.Provider</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
