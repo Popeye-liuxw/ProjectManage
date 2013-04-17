@@ -1,0 +1,61 @@
+.tooltipinputerr {
+	BORDER-RIGHT: #eee 2px solid; BORDER-TOP: #eee 2px solid; BACKGROUND: url(../images/exclamation.png) #ffff99 no-repeat right center; BORDER-LEFT: #eee 2px solid; BORDER-BOTTOM: #eee 2px solid
+}
+.tooltipinputok {
+	BORDER-RIGHT: green 2px solid; BORDER-TOP: green 2px solid; BACKGROUND: url(../images/accept.png) no-repeat right center; BORDER-LEFT: green 2px solid; BORDER-BOTTOM: green 2px solid
+}
+.leftImage {
+	BACKGROUND: url(../images/x1.gif) no-repeat right top; WIDTH: 14px; HEIGHT: 33px
+}
+.rightImage {
+	BACKGROUND: url(../images/x3.gif) no-repeat left top; WIDTH: 6px; HEIGHT: 33px
+}
+.contenImage {
+	PADDING-RIGHT: 10px; FONT-SIZE: 12px; BACKGROUND: url(../images/x2.gif) 50% top; TEXT-INDENT: 5px; LINE-HEIGHT: 36px; FONT-FAMILY: Arial; HEIGHT: 33px
+}
+.tableTip {
+	DISPLAY: none; FILTER: alpha(opacity=90); OVERFLOW: hidden; POSITION: absolute; BORDER-COLLAPSE: collapse; empty-cells: hide; opacity: 0.9
+}
+.mybox ol, ul, li {
+list-style-type: none;
+list-style-position: outside;
+list-style-image: none;
+}
+.mybox{ margin-top:10px;}
+.t-c {text-align: center;}
+.li-hori-w122 {
+float: left;
+width: 110px;
+margin-bottom: 20px;
+}
+.box-app {
+margin: auto;
+width: 96px;
+}
+.img-app {
+display: inline-block;
+height: 70px;
+padding: 3px;
+position: relative;
+vertical-align: middle;
+width: 70px;
+}
+.img-app-none {
+background: url("../images/bg14.png") no-repeat scroll center center transparent;
+cursor: pointer;
+height: 76px;
+left: 0;
+position: absolute;
+top: 0;
+width: 76px;
+}
+.t-overflow {
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+width: 100%;
+font-weight: bold;
+}
+.shakeimage{
+position:relative
+}

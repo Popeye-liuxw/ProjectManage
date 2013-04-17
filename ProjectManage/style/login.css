@@ -1,0 +1,44 @@
+﻿/*
+*   @20120809
+*/
+/*全局*/
+html{height:100%;overflow:hidden;}
+body{height:100%;overflow:hidden;}
+body{font:12px/1.5 Tahoma,Geneva,"微软雅黑","宋体",sans-serif;-webkit-text-size-adjust:none;height:100%;}
+a:link{color:#151515;text-decoration:none;}
+a:visited{color:#151515; text-decoration:none;}
+a:hover{color:#f63;text-decoration:none;}
+a:active{color:#f63;}
+b{color:#F00;}
+/* ----------网站首页 样式表---------- */
+html{background:url("../images/home_bg_x.png") repeat-x scroll center top #FFFFFF;}
+body{background:url("../images/background.jpg") no-repeat scroll center top transparent;}
+/*框架*/
+#iHeader,#iMain,#iFooter{ width:940px;margin:0px auto;clear:both;overflow:hidden;}
+/*顶部样式*/
+#iHeader{height:42px;padding:14px 0;}
+/* Logo */
+.iLogo{float:left;height:42px;padding-left:8px;width:220px;}
+.iLogo a{display:block;font-size:12px;height:42px;line-height:10;overflow:hidden;}
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend,button,input,textarea,th,td{margin:0px;padding:0px;}
+
+/*主体样式*/
+#iMain{height:500px;position:relative;}
+	/*注册盒子*/
+.loginBox{float:right;left:-14px;position:relative;top:135px;width:238px;}
+.loginBox h3{line-height:19px;padding:0 5px 4px;}
+.loginBox h3 b{color:#3366CC;display:block;font-size:16px;}
+.loginBox p{line-height:16px;overflow:hidden;padding:5px 5px 15px;position:relative;}
+.loginBox p.loginBtn{margin-top:-5px;padding:0px 5px;}
+.loginBox p.loginBtn label{float:left;line-height:21px;margin:0 0 10px 5px;}
+.loginBox p.loginBtn input{float:left;top:5px;*top:1px;}
+.loginBoxbutton{background:url("../images/home_btn.png") 0 -30px no-repeat;border:0 none;color:#FFF;border-radius:2px 2px 2px 2px;box-shadow:0 1px 3px rgba(0, 0, 0, 0.2);font-size:14px;font-weight:bold;height:33px;width:124px;cursor:hand;}
+.loginBoxbutton:hover{background-position:0 -64px;}
+.loginBox button:active{background-position:0 -98px;}
+.text{-moz-border-bottom-colors:none;-moz-border-image:none;-moz-border-left-colors:none;-moz-border-right-colors:none;-moz-border-top-colors:none;background:url("../images/home_text.png") no-repeat scroll 0 0 #FFFFFF;border-color:#BFBFBF #D6D6D6 #D6D6D6 #BFBFBF;border-style:solid;border-width:1px;color:#666666;font-size:12px;height:14px;line-height:14px;padding:7px 6px;width:214px;}
+.text:focus{border-color:#74A5E1;box-shadow:0 0 5px #74A5E1;}
+/*底部 版权样式*/
+#iFooter {border-top:1px solid #BFBFBF;color:#3366CC;line-height:23px;margin:auto;padding:5px 0;text-align:right;width:936px;}
+#iFooter span{color:#787878;float:left;}
+.checkText{-moz-border-bottom-colors:none;-moz-border-image:none;-moz-border-left-colors:none;-moz-border-right-colors:none;-moz-border-top-colors:none;background:url("../images/home_text.png") no-repeat scroll 0 0 #FFFFFF;border-color:#BFBFBF #D6D6D6 #D6D6D6 #BFBFBF;border-style:solid;border-width:1px;color:#666666;font-size:12px;height:14px;line-height:14px;padding:7px 6px;width:150px;}
+.checkText:focus{border-color:#74A5E1;box-shadow:0 0 5px #74A5E1;}

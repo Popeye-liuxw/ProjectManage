@@ -1,0 +1,81 @@
+﻿ .pageNumber
+                {
+                        padding-left: 10px;
+                        float: right; /*padding-top:10px;*/
+                }
+                .pageNumber a
+                {
+                        display: block;
+                        float: left;
+                        height: 22px;
+                        padding: 0 8px;
+                        line-height: 22px;
+                        border: #c6c6c6 1px solid;
+                        background-color: #fff;
+                        text-align: center;
+                        margin-right: 3px;
+                        color: #333;
+                }
+                .pageNumber a:hover
+                {
+                        border: #bf0000 1px solid;
+                        background-color: #fff;
+                        text-align: center;
+                        margin-right: 3px;
+                        color: #bf0000;
+                        text-decoration: none;
+                }
+                .pageNumber span
+                {
+                        display: inline-block;
+                        float: left;
+                        padding: 0 8px;
+                        height: 26px;
+                }
+                .pageNumber span.item
+                {
+                        height: 26px;
+                        line-height: 26px;
+                        color: #999;
+                }
+                .pageNumber span.btn
+                {
+                        height: 26px;
+                        line-height: 20px;
+                        float: left;
+                }
+                .pageNumber .previous
+                {
+                        background: url(/images/navbar.gif) #fff no-repeat -105px -250px;
+                        padding-left: 15px;
+                }
+                .pageNumber .next
+                {
+                        background: url(/images/navbar.gif) #fff no-repeat -105px -230px;
+                        padding-right: 15px;
+                }
+                .pageNumber .currentPage
+                {
+                        line-height: 22px;
+                        height: 22px;
+                        border: #bf0000 1px solid;
+                        background: #bf0000;
+                        text-align: center;
+                        margin-right: 3px;
+                        color: #fff;
+                        font-weight: 700;
+                }
+                .pageNumber .pgnum
+                {
+                        height: 24px;
+                        line-height: 24px;
+                        border: #c6c6c6 1px solid;
+                        background-color: #fff;
+                        width: 30px;
+                        text-align: center;
+                        margin: 0px 3px;
+                }
+                .pageNumber .next_page
+                {
+                        margin: 0 0 0 6px;
+                }

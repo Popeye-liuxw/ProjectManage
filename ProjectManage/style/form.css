@@ -1,0 +1,69 @@
+﻿.input1{width:140px;font-family: verdana;
+	background-color: #fff;
+	border:#89B5E9 1px solid;
+	font-size: 12px;
+	padding:2px 2px;
+}
+.input1-bor {width:140px;
+font-family:verdana;background-color: #fff;border:#336699 1px solid;
+font-size: 12px;
+padding:2px 2px;}
+.inputcalender{width:140px;font-family: verdana;
+	background-color: #fff;
+	border:#89B5E9 1px solid;
+	font-size: 12px;
+	cursor:hand;
+	padding:2px;
+}
+.inputcalender-bor {width:140px;
+font-family:verdana;background-color: #fff;border:#336699 1px solid;
+font-size: 12px; padding:2px;
+}
+.td1{border-top:1px solid #ddd;border-left:1px solid #ddd; border-bottom:1px solid #ddd;}/*上左下*/
+.td2{border-top:1px solid #ddd;border:#ddd 1px solid;}/*上下*/
+.td3{border-top:1px solid #ddd;border-right:1px solid #ddd; border-bottom:1px solid #ddd;}/*上右下*/
+.forms{margin:10px auto;border:solid 1px #ededed:}
+.forms th{color:#fff;background:#4B7EBD;height:24px;border-bottom:1px solid #6392C8;border-top:1px solid #6392C8;}
+.forms td{border-top:1px solid #fff;border-bottom:1px solid #ddd;padding:5px 5px 5px 5px;}
+.fthfirst{border-left:1px solid #6392C8;}
+.fthlast{border-right:1px solid #6392C8;}
+.ftfirst{border-left:1px solid #ddd;}
+.ftlast{border-right:1px solid #ddd;}
+
+
+
+.td{background:#EFEFEF;}
+#departmentname{width:140px;}
+
+/* 表单errorMsg 样式*/
+.FormTip{color:#666;}
+.ErrTip{color:#FF1C19}
+
+.u_info{width:400px;height:220px;display:none;}/*DIV class name*/
+.formbtn{width:76px;height:24px; font-size: 12px; background:#86A9D2; border-width: thin thin thin thin; border-color: #CCCCFF #CCCCCC #CCCCCC #CCCCFF}
+/*用户登录信息样式*/
+.tb_userinfo{margin:10px auto;border-top:solid 1px #ededed}/*table class name*/
+.tb_userinfo th{border-top:1px solid #ededed;border-bottom:1px solid #ededed; line-height:40px;}
+.tb_userinfo td{border-bottom:1px solid #ededed; height:36px;}
+/*日报隐藏层样式*/
+.report_info{width:600px;height:468px;display:none;}
+.report{margin:10px auto;border-top:solid 1px #ededed:} 
+.report th{border-bottom:1px solid #ededed; line-height:40px;font-size:13px;}
+.report td{border-bottom:1px solid #ededed; height:36px;}
+/*项目成果展示 日期控件宽度*/
+#Resultdatepickerstart{width:140px;}
+#Resultdatepickerstart{width:140px;}
+#addProjectResultShow{width:1200px;height:500px;}
+/*项目外协费添加信息弹出层样式*/
+#ExternalCostsAdd{width:426px;height:322px;} /* DIV 宽高 */ 
+.tb_ExternalCosts{margin:5px auto;}
+.tb_ExternalCosts th{border-top:1px solid #ededed;border-bottom:1px solid #ededed; line-height:40px;}
+.tb_ExternalCosts td{border-bottom:1px solid #ededed; height:30px;}
+
+
+/*项目详细信息table CSS*/
+#pro_det{margin:10px auto;border:solid 1px #ededed:}
+#pro_det th{color:#fff;background:#4B7EBD;height:24px;border-bottom:1px solid #6392C8;border-top:1px solid #6392C8;}
+#pro_det td{border-top:1px solid #fff; height:32px; border-bottom:1px dotted #ddd;padding:5px 5px 5px 5px;}
+
+
